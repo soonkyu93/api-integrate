@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ApiExam from './ApiExam';
+//import ContextExam from './ContextExam';
 import reportWebVitals from './reportWebVitals';
-
+//import PersonContext from './contexts/PersonContext';
+//const persons = [
+//  { id:1, name: 'green', age: 20},
+//  { id:2, name: 'blue', age: 28}
+// ]
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ApiExam />
   </React.StrictMode>,
   document.getElementById('root')
 );
